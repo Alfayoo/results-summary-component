@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+  border: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Hanken Grotesk", sans-serif;
+  font-size: 18px;
+}
+.main-card {
+  display: flex;
+  justify-content: center;
+  height: 70vh;
+  align-items: center;
+}
+.card-1 {
+  background-color: rgba(93, 35, 253, 0.9);
+  color: hsl(0, 0%, 100%);
+  border-radius: 5px;
+  text-align: center;
+  width: 260px;
+  height: 297px;
+}
+.card-1 h5 {
+  opacity: 70%;
+  font-weight: lighter;
+  padding: 15px;
+}
+.card-1 h4 {
+  font-weight: 800;
+  font-size: 39px;
+  letter-spacing: 2px;
+}
+.card-circle p {
+  font-size: 14px;
+  opacity: 50%;
+  padding: 0;
+}
+.card-circle {
+  background-color: rgba(93, 35, 253, 0.9);
+  border-radius: 50%;
+  display: inline-block;
+  width: 120px;
+  height: 120px;
+  padding: 17px;
+}
+.card-1 h3 {
+  padding: 15px;
+  letter-spacing: 2px;
+}
+.card-1 p {
+  line-height: 1.7;
+  padding: 10px;
+  font-size: 13px;
+  opacity: 90%;
+}
+.card-2 {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 5px;
+  box-shadow: 0px 0px 20px 1px #736f6f;
+}
+.card-2 p {
+  margin: 15px;
+  border-radius: 10px;
+  font-size: 13px;
+  text-align: space-between;
+  padding: 8px;
+  display: flex;
+}
+.card-2 span {
+  padding-left: 45px;
+}
+.card-2 p img {
+  padding-right: 7px;
+  height: 16px;
+  align-self: center;
+}
+
+.card-2 p:nth-of-type(1) {
+  color: hsl(0, 100%, 67%);
+  background-color: hsla(241, 100%, 89%, 0.299);
+}
+.card-2 p:nth-of-type(2) {
+  color: hsl(39, 100%, 56%);
+}
+.card-2 p:nth-of-type(3) {
+  color: hsl(166, 100%, 37%);
+  background-color: hsla(166, 99%, 71%, 0.146);
+}
+.card-2 p:nth-of-type(4) {
+  color: hsl(234, 85%, 45%);
+  background-color: hsl(221, 100%, 96%);
+}
+.card-2 button {
+  background-color: hsl(224, 30%, 27%);
+  color: hsl(0, 0%, 100%);
+  padding: 10px 70px;
+  text-align: center;
+  margin: 10px;
+  border-radius: 20px;
+}
+h2 {
+  font-size: 16px;
+  letter-spacing: 1px;
+  padding: 10px;
+}
+.attribution a{
+    text-decoration: none;
+}
+@media(max-width:500px){
+    .main-card{
+        display: block;
+       
+    }
+    .card-1{
+        width: 100%;
+        border-radius: 0px 0px 30px 30px;
+    }
+    .card-2{
+        width: 100%;
+       margin-top: 1px;
+    }
+    .card-2 p,h2,button{
+        margin-left: 20px;
+    }
+    .attribution{
+        display: none;
+    }
+}
